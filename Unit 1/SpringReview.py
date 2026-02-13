@@ -36,37 +36,32 @@ def discount():
 
 
 # 2. Create a function that will check a users age and GPA 
-# and determine  if they qaulify to attend the job fair. 
+# and determine if they qaulify to attend the job fair. 
 # Your function should take the user's age and GPA in as parameters. 
 # If the user is above 17 and has atleast a 90 or above GPA they 
 # can go to the job fair. Otherwise they are not permitted to go.
 
-def jobFairCheck(gpa, age):
-    if gpa >= 90 and age >= 17:
-        print('Congrats! You meet the req. for the job fair')
-    else:
-        print("Sorry, you dont meet the req.")
+def gpa(age, gpa):
+    if age >= 17 or gpa >= 90:
+        print("you can go to the job fair")
+    else: 
+        print("sorry you do not meet the requirements.")
 
-#jobFairCheck(91, 17)
-
-
+gpa(17, 86)
 
 
-# Create a function that will loop through a list, 
+
+
+
+
+
+
+
+# 3. Create a function that will loop through a list, 
 # remove all the grades lower than 85, and then print out 
 # the GPA with only the numbers above 85.  
 
 myGrades =[76, 87, 79, 84, 100, 81, 99, 72, 100, 98, 91]
 
-def gpa():
-    for grade in myGrades:
-        if grade < 85:
-            myGrades.remove(grade)
-        print(myGrades)
 
-gpa()
-    # function to remove() number from list
-    # we will need a loop
-    # if/ else goal is to remove numbers > 85
-    # boolean for the numbers
 
