@@ -5,22 +5,41 @@ class IanFirstBank:
         self.address = address
         self.balance = balance
 
-    def deposit(self, balance, amount):
-        print('')
+    def deposit(self, amount):
+        self.balance += amount
+        print('Thanks '+ self.name +' your new balance is ' + str(self.balance))
     
-    def withdraw(self, balance, amount):
-        print('')
+    def withdraw(self, amount):
+        self.balance -= amount
+        print('Thanks '+ self.name +' your new balance is ' + str(self.balance))
 
-    def closeBankAccount(self, name, password):
-        print('')
-
-    def accessAccount(self, name, password):
-        print('')
-        # send all user info
-
-    def transfer(self):
-        print()
+    # def accessAccount(self):
+    #     return
+    
+    # def closeAccount(self):
+    #     return
 
 account_1 = IanFirstBank('John', '123ABC','NA', 100)
 account_2 = IanFirstBank('Ashley', '321ABC','NA', 200)
 
+account_1.deposit(50)
+account_2.withdraw(60)
+
+users = []
+
+def createAccount():
+    print('Welcome to Ians first bank.')
+    print("Please complete the  following questions to create your account: ")
+    name= input("name: ")     
+    password= input("password: ")
+    address= input("address: ")
+    balance= input("How much would you like to add to the new account?: ")   
+    
+    print("Congratulations! your bank account is done.")
+
+    account_3= IanFirstBank(name, password, address, balance)
+    users.append(account_3)
+
+createAccount()
+
+print(users)
