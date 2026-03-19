@@ -13,7 +13,6 @@ class FordCars:
         if self.interior == 'leather':
             print(self.name + " only has 2 seats")
 
-
 def doSomethingCool():
   print("wow")
 

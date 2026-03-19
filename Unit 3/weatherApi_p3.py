@@ -11,15 +11,3 @@ response = requests.get(url)
 data = response.json()
 
 print(data)
-
-
-
-
-
-# Accessing the data
-current = data["current_weather"]
-temp = current["temperature"]
-fahrenheit = (temp * 1.8) + 32
-
-print(f"Current Temperature: {temp}C")
-print(f"Current Temperature: {fahrenheit}F")
