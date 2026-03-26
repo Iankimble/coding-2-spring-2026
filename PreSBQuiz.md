@@ -25,4 +25,4 @@ Time Limit: Entire class period
 **Reminder**: Please close all unauthorized browser tabs and put your phone away before beginning.
 
 ## Link to Assessment 
-[Python 2 Quiz](https://forms.gle/7Nrg2Cprr1cVhiTD9)
+[Python 2 Quiz](https://forms.gle/79KmT2622HtQvpqM7)
