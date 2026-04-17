@@ -66,3 +66,4 @@ phone1 = Phones(32, 'verizon', 7.00,'blue', False, 'brick mini', False, 100.00,'
 
 #print(apple_1.ram)
 #print(apple_2.ram)
+
