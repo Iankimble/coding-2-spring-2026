@@ -42,4 +42,4 @@ def getSingleData():
     # printing out data
     print(results)
 
-getSingleData()
+# getSingleData()
