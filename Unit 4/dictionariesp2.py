@@ -45,4 +45,7 @@ print(maySchedule)
 
 for event in maySchedule:
     print(event['name'])
-    
+
+for event in maySchedule:
+    for x, y in event.items():
+        print(x,y)
