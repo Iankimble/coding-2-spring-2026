@@ -25,5 +25,4 @@ example - ianKimble_finalProject.pdf
 - You may use your class notes and resources
 - You may use W3schools 
 
-
 [PROJECT SUBMISION LINK](https://forms.gle/gaFTUY8zjKPi4sjJ9)
